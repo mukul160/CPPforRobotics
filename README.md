@@ -34,3 +34,28 @@
   dy = forward * sin(theta)
 
 - Learned the importance of correct mathematical modeling in motion
+
+## Day 3 - Goal-Based Movement (Basic Autonomy)
+
+- Added ability for robot to move toward a target (x, y)
+- Implemented `moveToGoal()`:
+  - Computes direction using `atan2`
+  - Computes distance to goal
+  - Moves step-by-step toward target
+- Introduced a new command system:
+  - Manual movement
+  - Path tracking
+  - Autonomous goal-seeking
+
+### Key Concepts Learned
+- Converting goal position → direction (angle)
+- Using `atan2(dy, dx)` for orientation
+- Breaking motion into small steps
+- Difference between:
+  - Manual control
+  - Goal-driven behavior
+
+### Observations
+- Robot instantly rotates to face the goal (not realistic yet)
+- Movement is discrete (step-based), not smooth
+- System now resembles basic robot navigation logic
