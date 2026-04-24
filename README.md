@@ -59,3 +59,27 @@
 - Robot instantly rotates to face the goal (not realistic yet)
 - Movement is discrete (step-based), not smooth
 - System now resembles basic robot navigation logic
+
+## Day 4 - System Upgrade (Side Quests)
+
+- Combined multiple improvements into one system:
+  - Speed control
+  - Total distance tracking
+  - Limited turning (more realistic motion)
+  - Path preview (last 5 positions)
+  - Reset functionality
+
+### Key Concepts Learned
+- Incremental system design (adding features without breaking structure)
+- Basic motion constraints (max turning rate)
+- Tracking robot metrics (distance traveled)
+- Managing growing state (path history)
+
+### Observations
+- Robot motion now feels more realistic (no instant turning)
+- System is starting to resemble a simple simulation loop
+- Small mathematical changes significantly affect behavior
+
+### Reflection
+Focused on reinforcing existing concepts rather than adding new ones.
+This helped build intuition and confidence with the system.
