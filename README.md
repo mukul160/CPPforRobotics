@@ -83,3 +83,28 @@
 ### Reflection
 Focused on reinforcing existing concepts rather than adding new ones.
 This helped build intuition and confidence with the system.
+
+## Day 5 - Autonomous Robot Loop (Control System)
+
+- Converted the program into a continuous simulation loop
+- Introduced `update()` function to represent robot behavior over time
+- Added goal-setting mechanism:
+  - Robot continuously moves toward an active goal
+- Separated:
+  - Goal assignment (`setGoal`)
+  - Motion logic (`update`)
+
+### Key Concepts Learned
+- Sense → Decide → Act loop (core robotics pattern)
+- Continuous vs discrete execution
+- Gradual motion instead of instant execution
+- State-driven behavior (`hasGoal`)
+
+### Observations
+- Robot now behaves more like a physical system
+- Movement is smoother and more realistic (limited turning + step size)
+- Architecture feels closer to real robotics software
+
+### Reflection
+This was a shift from writing functions to designing a system.
+The robot is no longer directly controlled each step—instead, it operates autonomously toward a goal.
