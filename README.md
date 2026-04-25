@@ -108,3 +108,32 @@ This helped build intuition and confidence with the system.
 ### Reflection
 This was a shift from writing functions to designing a system.
 The robot is no longer directly controlled each step—instead, it operates autonomously toward a goal.
+
+## Day 6 - Obstacle Avoidance (Reactive Behavior)
+
+- Introduced a simple obstacle in the environment
+- Added distance-based sensing using Euclidean distance
+- Implemented reactive obstacle avoidance:
+  - Robot moves away when within a threshold distance
+  - Otherwise continues toward goal
+
+### Key Concepts Learned
+- Basic sensing (distance to obstacle)
+- Reactive behavior vs planned behavior
+- Angle normalization (handling wrap-around in rotation)
+- Combining multiple behaviors (goal-seeking + avoidance)
+
+### Observations
+- Robot successfully avoids obstacle but does not reliably settle at goal
+- Motion becomes oscillatory or spiral-like after avoidance
+- Behavior emerges from simple rules but lacks stability
+
+### Limitations Identified
+- No proper goal convergence logic
+- Competing behaviors (goal vs avoidance) are not blended
+- No velocity control or damping near goal
+- System is purely reactive, not predictive
+
+### Reflection
+This was the first step into environment interaction.
+Small local rules produced complex motion, but also exposed the need for more structured control systems.
