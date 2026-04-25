@@ -137,3 +137,42 @@ The robot is no longer directly controlled each step—instead, it operates auto
 ### Reflection
 This was the first step into environment interaction.
 Small local rules produced complex motion, but also exposed the need for more structured control systems.
+
+## Day 7 - Vector Blending + Control Instability
+
+- Introduced vector-based control (instead of angle-only logic)
+- Implemented blending of:
+  - Goal direction (attractive vector)
+  - Obstacle avoidance (repulsive vector)
+- Added proportional control for:
+  - Linear velocity (based on distance to goal)
+  - Angular velocity (based on heading error)
+
+### Key Concepts Learned
+- Vector normalization and direction-based control
+- Behavior blending instead of switching logic
+- Feedback control (proportional controller)
+- Angle wrapping and shortest rotation
+
+### Observations
+- Robot initially moves toward goal and avoids obstacle smoothly
+- However, system becomes unstable over time
+- Robot diverges and moves far away instead of settling
+
+### Issues Encountered
+- Linear velocity increases with distance → causes runaway behavior
+- Misalignment between heading and goal leads to incorrect motion
+- Positive feedback loop causes exponential divergence
+- System lacks damping and stability guarantees
+
+### Reflection
+This was the first encounter with control instability.
+Even though the logic was mathematically sound, the system behavior was not stable.
+
+This highlights an important lesson:
+A working algorithm is not the same as a stable system.
+
+Further improvements needed:
+- Better velocity control (clamping / damping)
+- Alignment-aware movement
+- Possibly more structured control systems (PID, potential fields, etc.)
