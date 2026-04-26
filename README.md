@@ -313,3 +313,72 @@ The new approach produces:
 - Stable convergence toward the goal  
 
 This feels much closer to how real robotic systems behave.
+
+---
+
+## Velocity-Based Motion + Smoothing
+
+### Upgrade
+
+Switched from direct position updates to a **velocity-based motion model** using:
+
+* linear velocity `v`
+* angular velocity `w`
+* timestep `dt`
+
+```cpp
+theta += w * dt;
+x += v * cos(theta) * dt;
+y += v * sin(theta) * dt;
+```
+
+---
+
+### Control Mapping
+
+Reused geometric controller:
+
+```cpp
+forward = h.dot(finalDir);   // alignment → speed
+turn    = h.cross(finalDir); // direction → rotation
+```
+
+Mapped to velocities:
+
+```cpp
+target_v = forward * distance;
+target_w = turn;
+```
+
+---
+
+### Key Addition — Smoothing
+
+```cpp
+v = 0.8*v + 0.2*target_v;
+w = 0.8*w + 0.2*target_w;
+```
+
+* blends old + new velocity
+* prevents sudden jumps
+* adds **inertia-like behavior**
+
+---
+
+### Effect
+
+* smoother motion
+* gradual acceleration
+* reduced oscillations
+
+---
+
+### Takeaway
+
+Shifted from:
+
+> direct motion → **dynamic, time-based motion**
+
+Closer to real robot control (e.g. velocity commands).
+
+---
