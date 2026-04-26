@@ -138,7 +138,7 @@ The robot is no longer directly controlled each step—instead, it operates auto
 This was the first step into environment interaction.
 Small local rules produced complex motion, but also exposed the need for more structured control systems.
 
-## Day 7 - Vector Blending + Control Instability
+## Day 7 & 8 - Vector Blending + Control Instability
 
 - Introduced vector-based control (instead of angle-only logic)
 - Implemented blending of:
@@ -176,3 +176,140 @@ Further improvements needed:
 - Better velocity control (clamping / damping)
 - Alignment-aware movement
 - Possibly more structured control systems (PID, potential fields, etc.)
+
+## Stable Blended Controller (Dot + Cross Product)
+
+### What Changed
+
+Reimplemented the blended controller using **vector-based control (dot + cross products)** instead of angle-based error correction.
+
+Previous versions relied on:
+- Angle difference (`targetAngle - theta`)
+- Direct rotation updates
+- Linear velocity tied only to distance
+
+This led to unstable behavior:
+- Robot moved even when facing the wrong direction
+- Speed increased as it moved away from the goal
+- Positive feedback loop caused divergence (runaway motion)
+
+---
+
+### Key Improvement
+
+The controller is now based on **geometric relationships between vectors**:
+
+- **Dot product → controls forward motion**
+- **Cross product → controls turning direction**
+
+---
+
+### Control Logic
+
+Let:
+- `heading` = robot’s current direction  
+- `finalDir` = blended direction (goal + obstacle avoidance)
+
+#### 1. Forward Motion (Dot Product)
+
+```
+forward = heading ⋅ finalDir
+```
+
+Interpretation:
+- `≈ 1` → aligned → move forward
+- `≈ 0` → sideways → slow down
+- `< 0` → opposite → stop
+
+This prevents the robot from moving in the wrong direction.
+
+---
+
+#### 2. Turning (Cross Product)
+
+```
+turn = heading × finalDir
+```
+
+
+Interpretation:
+- `> 0` → turn left  
+- `< 0` → turn right  
+- `= 0` → already aligned  
+
+This replaces angle difference calculations and avoids discontinuities (like ±π wrapping issues).
+
+---
+
+### Why This Version Works
+
+This implementation introduces **negative feedback**, which stabilizes the system:
+
+- Misalignment → reduces forward velocity (via dot product)
+- Misalignment → increases turning (via cross product)
+- Alignment → restores forward motion
+
+As a result:
+- The robot turns first, then moves
+- Movement is always directionally valid
+- No runaway acceleration occurs
+- System converges instead of diverging
+
+---
+
+### Weighted Vector Blending (Goal + Obstacle)
+
+The final movement direction is computed as:
+
+```
+finalDir = goalDir + weight * avoidDir
+```
+
+
+Where:
+- `goalDir` → normalized vector toward goal  
+- `avoidDir` → normalized vector away from obstacle  
+- `weight` → depends on distance to obstacle  
+
+#### Weight Calculation
+
+```
+if (distObs < threshold)
+weight = threshold - distObs;
+else
+weight = 0;
+```
+
+Interpretation:
+- Far from obstacle → ignore it  
+- Close to obstacle → avoidance influence increases  
+- Very close → strong repulsion  
+
+After blending, the vector is normalized:
+
+```
+finalDir.normalize();
+```
+
+---
+
+### Key Takeaways
+
+- Stability is not just about correct math—it’s about correct **feedback structure**
+- Dot product ensures movement is aligned with intent
+- Cross product ensures correct turning direction
+- Vector-based control is more robust than angle-based control
+
+---
+
+### Reflection
+
+This iteration fixed a major issue from previous versions:
+> A mathematically correct controller can still be behaviorally unstable.
+
+The new approach produces:
+- Smooth motion  
+- Direction-aware movement  
+- Stable convergence toward the goal  
+
+This feels much closer to how real robotic systems behave.
