@@ -1,4 +1,4 @@
-# 🤖 Motion Basics — From Geometry to Control
+# Motion Basics — From Geometry to Control
 
 This folder tracks the evolution of a simple robot simulation built in C++.
 
