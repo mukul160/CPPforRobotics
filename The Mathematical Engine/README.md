@@ -14,8 +14,8 @@ And yeah, this code here?
     }
 ```
 
-I now understand what the 'const' means in this context.
-I calculated the angle between 2 vectors. That's bound to be useful later.
+- I now understand what the 'const' means in this context.
+- I calculated the angle between 2 vectors. That's bound to be useful later.
 
 No notes on the rotation matrix. 
 Just a bit of caution on this point:
