@@ -14,4 +14,5 @@ This is a median filter. We define a window of measurements (ideally odd numbere
 
 ### Experiment 5:
 Pretty much just a low-pass filter, but with two inputs instead of one. 
+
 ---
