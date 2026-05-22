@@ -1,0 +1,4 @@
+std_msgs/Header header
+int32 tick_count
+string status
+float64 uptime_seconds

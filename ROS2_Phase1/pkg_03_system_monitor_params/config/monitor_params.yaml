@@ -1,0 +1,4 @@
+system_monitor:
+  ros__parameters:
+    timer_period_s: 2.0
+    status_threshold: 5
