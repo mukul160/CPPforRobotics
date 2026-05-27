@@ -1,0 +1,23 @@
+[0.032s] Invoking command in '/home/mukul/ros2_phase2/build/tf2_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_listener -- -j8 -l8
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target listener_node[0m
+[0.150s] [100%] Built target listener_node
+[0.169s] Invoked command in '/home/mukul/ros2_phase2/build/tf2_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_listener -- -j8 -l8
+[0.184s] Invoking command in '/home/mukul/ros2_phase2/build/tf2_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_listener
+[0.197s] -- Install configuration: ""
+[0.197s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/lib/tf2_listener/listener_node
+[0.198s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/package_run_dependencies/tf2_listener
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/parent_prefix_path/tf2_listener
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/ament_prefix_path.sh
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/ament_prefix_path.dsv
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/path.sh
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/path.dsv
+[0.199s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.bash
+[0.200s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.sh
+[0.200s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.zsh
+[0.200s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.dsv
+[0.200s] -- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.dsv
+[0.200s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/packages/tf2_listener
+[0.200s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/cmake/tf2_listenerConfig.cmake
+[0.201s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/cmake/tf2_listenerConfig-version.cmake
+[0.201s] -- Up-to-date: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.xml
+[0.204s] Invoked command in '/home/mukul/ros2_phase2/build/tf2_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_listener

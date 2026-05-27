@@ -1,0 +1,74 @@
+[0.059s] Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+[0.315s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- The CXX compiler identification is GNU 11.4.0
+[0.537s] -- Detecting C compiler ABI info
+[0.709s] -- Detecting C compiler ABI info - done
+[0.729s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.742s] -- Detecting C compile features
+[0.746s] -- Detecting C compile features - done
+[0.752s] -- Detecting CXX compiler ABI info
+[0.953s] -- Detecting CXX compiler ABI info - done
+[0.986s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.986s] -- Detecting CXX compile features
+[0.988s] -- Detecting CXX compile features - done
+[1.038s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.436s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.736s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.867s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.886s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.918s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.961s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.146s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.157s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.393s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.454s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.602s] -- Looking for pthread.h
+[2.731s] -- Looking for pthread.h - found
+[2.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.855s] -- Found Threads: TRUE  
+[3.007s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[3.065s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.272s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.319s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.322s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.322s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.330s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.537s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.537s] -- Configured cppcheck include dirs: 
+[3.537s] -- Configured cppcheck exclude dirs and/or files: 
+[3.542s] -- Added test 'lint_cmake' to check CMake code style
+[3.545s] -- Added test 'uncrustify' to check C / C++ code style
+[3.545s] -- Configured uncrustify additional arguments: 
+[3.547s] -- Added test 'xmllint' to check XML markup files
+[3.550s] -- Configuring done
+[3.571s] -- Generating done
+[3.580s] -- Build files have been written to: /home/mukul/ros2_phase2/build/tf2_chain
+[3.612s] Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+[3.612s] Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+[3.704s] [ 50%] [32mBuilding CXX object CMakeFiles/chain_node.dir/src/chain_node.cpp.o[0m
+[18.018s] [100%] [32m[1mLinking CXX executable chain_node[0m
+[18.998s] [100%] Built target chain_node
+[19.017s] Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+[19.019s] Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain
+[19.030s] -- Install configuration: ""
+[19.030s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/lib/tf2_chain/chain_node
+[19.035s] -- Set runtime path of "/home/mukul/ros2_phase2/install/tf2_chain/lib/tf2_chain/chain_node" to ""
+[19.036s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/ament_index/resource_index/package_run_dependencies/tf2_chain
+[19.036s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/ament_index/resource_index/parent_prefix_path/tf2_chain
+[19.037s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/environment/ament_prefix_path.sh
+[19.037s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/environment/ament_prefix_path.dsv
+[19.038s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/environment/path.sh
+[19.040s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/environment/path.dsv
+[19.041s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/local_setup.bash
+[19.041s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/local_setup.sh
+[19.042s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/local_setup.zsh
+[19.042s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/local_setup.dsv
+[19.042s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.dsv
+[19.043s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/ament_index/resource_index/packages/tf2_chain
+[19.043s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/cmake/tf2_chainConfig.cmake
+[19.043s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/cmake/tf2_chainConfig-version.cmake
+[19.043s] -- Installing: /home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.xml
+[19.047s] Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain

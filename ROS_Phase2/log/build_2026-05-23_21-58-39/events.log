@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000476] (-) JobUnselected: {'identifier': 'tf2-broadcaster'}
+[0.000673] (tf2_listener) JobQueued: {'identifier': 'tf2_listener', 'dependencies': OrderedDict()}
+[0.000775] (tf2_listener) JobStarted: {'identifier': 'tf2_listener'}
+[0.015960] (tf2_listener) JobProgress: {'identifier': 'tf2_listener', 'progress': 'cmake'}
+[0.016754] (tf2_listener) Command: {'cmd': ['/usr/bin/cmake', '/home/mukul/ros2_phase2/src/tf2_listener', '-DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_listener'], 'cwd': '/home/mukul/ros2_phase2/build/tf2_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mukul/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/mukul/ros2_phase2/src'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '1238'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1679'), ('BUNDLED_DEBUGPY_PATH', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2766'), ('NVM_DIR', '/home/mukul/.nvm'), ('COLCON_PREFIX_PATH', '/home/mukul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:11905'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1652,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1652'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '1b68ae19615d48a29583e021685c0535'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64b08f8fac0e1aab.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/mukul/.config/Code/User/workspaceStorage/74fcec7f184ac2636e7f9b10f21f8520/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-924f4dae92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/ros2_phase2/build/tf2_listener'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/240/.local/share/flatpak/exports/share:/home/mukul/snap/code/240/.local/share:/home/mukul/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mukul/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble')]), 'shell': False}
+[0.098823] (-) TimerEvent: {}
+[0.105857] (tf2_listener) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.196094] (tf2_listener) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.198941] (-) TimerEvent: {}
+[0.208381] (tf2_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299081] (-) TimerEvent: {}
+[0.317418] (tf2_listener) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.328811] (tf2_listener) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.329117] (tf2_listener) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.329671] (tf2_listener) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.333662] (tf2_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399189] (-) TimerEvent: {}
+[0.450964] (tf2_listener) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.461332] (tf2_listener) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.461612] (tf2_listener) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.462270] (tf2_listener) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.468543] (tf2_listener) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.499324] (-) TimerEvent: {}
+[0.599734] (-) TimerEvent: {}
+[0.688423] (tf2_listener) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.699832] (-) TimerEvent: {}
+[0.800188] (-) TimerEvent: {}
+[0.878344] (tf2_listener) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.900349] (-) TimerEvent: {}
+[0.973026] (tf2_listener) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.985293] (tf2_listener) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.000454] (-) TimerEvent: {}
+[1.002338] (tf2_listener) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.028932] (tf2_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.060934] (tf2_listener) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100590] (-) TimerEvent: {}
+[1.153636] (tf2_listener) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.160646] (tf2_listener) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.200712] (-) TimerEvent: {}
+[1.301141] (-) TimerEvent: {}
+[1.324382] (tf2_listener) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.373627] (tf2_listener) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.401246] (-) TimerEvent: {}
+[1.445327] (tf2_listener) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.465138] (tf2_listener) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.501341] (-) TimerEvent: {}
+[1.576543] (tf2_listener) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.577356] (tf2_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.601470] (-) TimerEvent: {}
+[1.688608] (tf2_listener) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.690587] (tf2_listener) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.701577] (-) TimerEvent: {}
+[1.779341] (tf2_listener) StdoutLine: {'line': b'-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.801707] (-) TimerEvent: {}
+[1.823545] (tf2_listener) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.901813] (-) TimerEvent: {}
+[1.973103] (tf2_listener) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.001921] (-) TimerEvent: {}
+[2.103562] (-) TimerEvent: {}
+[2.108423] (tf2_listener) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.108887] (tf2_listener) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.109089] (tf2_listener) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.109926] (tf2_listener) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.111972] (tf2_listener) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.112324] (tf2_listener) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.113000] (tf2_listener) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.115522] (tf2_listener) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.135467] (tf2_listener) StdoutLine: {'line': b'-- Generating done\n'}
+[2.142297] (tf2_listener) StdoutLine: {'line': b'-- Build files have been written to: /home/mukul/ros2_phase2/build/tf2_listener\n'}
+[2.157217] (tf2_listener) CommandEnded: {'returncode': 0}
+[2.158051] (tf2_listener) JobProgress: {'identifier': 'tf2_listener', 'progress': 'build'}
+[2.159046] (tf2_listener) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mukul/ros2_phase2/build/tf2_listener', '--', '-j8', '-l8'], 'cwd': '/home/mukul/ros2_phase2/build/tf2_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mukul/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/mukul/ros2_phase2/src'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '1238'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1679'), ('BUNDLED_DEBUGPY_PATH', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2766'), ('NVM_DIR', '/home/mukul/.nvm'), ('COLCON_PREFIX_PATH', '/home/mukul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:11905'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1652,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1652'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '1b68ae19615d48a29583e021685c0535'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64b08f8fac0e1aab.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/mukul/.config/Code/User/workspaceStorage/74fcec7f184ac2636e7f9b10f21f8520/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-924f4dae92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/ros2_phase2/build/tf2_listener'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/240/.local/share/flatpak/exports/share:/home/mukul/snap/code/240/.local/share:/home/mukul/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mukul/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble')]), 'shell': False}
+[2.203579] (-) TimerEvent: {}
+[2.237078] (tf2_listener) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener_node.dir/src/listener_node.cpp.o\x1b[0m\n'}
+[2.303712] (-) TimerEvent: {}
+[2.404124] (-) TimerEvent: {}
+[2.504594] (-) TimerEvent: {}
+[2.605491] (-) TimerEvent: {}
+[2.706775] (-) TimerEvent: {}
+[2.807185] (-) TimerEvent: {}
+[2.907670] (-) TimerEvent: {}
+[3.008114] (-) TimerEvent: {}
+[3.108582] (-) TimerEvent: {}
+[3.209154] (-) TimerEvent: {}
+[3.309983] (-) TimerEvent: {}
+[3.410420] (-) TimerEvent: {}
+[3.510761] (-) TimerEvent: {}
+[3.611108] (-) TimerEvent: {}
+[3.711453] (-) TimerEvent: {}
+[3.811796] (-) TimerEvent: {}
+[3.912154] (-) TimerEvent: {}
+[4.012510] (-) TimerEvent: {}
+[4.112852] (-) TimerEvent: {}
+[4.213199] (-) TimerEvent: {}
+[4.313564] (-) TimerEvent: {}
+[4.413938] (-) TimerEvent: {}
+[4.514368] (-) TimerEvent: {}
+[4.614839] (-) TimerEvent: {}
+[4.715311] (-) TimerEvent: {}
+[4.815722] (-) TimerEvent: {}
+[4.916136] (-) TimerEvent: {}
+[5.016638] (-) TimerEvent: {}
+[5.117054] (-) TimerEvent: {}
+[5.217502] (-) TimerEvent: {}
+[5.317903] (-) TimerEvent: {}
+[5.418391] (-) TimerEvent: {}
+[5.522852] (-) TimerEvent: {}
+[5.623329] (-) TimerEvent: {}
+[5.723727] (-) TimerEvent: {}
+[5.824084] (-) TimerEvent: {}
+[5.924444] (-) TimerEvent: {}
+[6.025162] (-) TimerEvent: {}
+[6.125552] (-) TimerEvent: {}
+[6.225921] (-) TimerEvent: {}
+[6.326387] (-) TimerEvent: {}
+[6.426865] (-) TimerEvent: {}
+[6.527326] (-) TimerEvent: {}
+[6.627687] (-) TimerEvent: {}
+[6.728052] (-) TimerEvent: {}
+[6.828422] (-) TimerEvent: {}
+[6.928770] (-) TimerEvent: {}
+[7.029124] (-) TimerEvent: {}
+[7.129564] (-) TimerEvent: {}
+[7.229967] (-) TimerEvent: {}
+[7.330342] (-) TimerEvent: {}
+[7.430811] (-) TimerEvent: {}
+[7.531306] (-) TimerEvent: {}
+[7.631710] (-) TimerEvent: {}
+[7.732038] (-) TimerEvent: {}
+[7.832331] (-) TimerEvent: {}
+[7.932667] (-) TimerEvent: {}
+[8.033062] (-) TimerEvent: {}
+[8.133519] (-) TimerEvent: {}
+[8.233948] (-) TimerEvent: {}
+[8.334359] (-) TimerEvent: {}
+[8.434726] (-) TimerEvent: {}
+[8.535108] (-) TimerEvent: {}
+[8.635468] (-) TimerEvent: {}
+[8.735891] (-) TimerEvent: {}
+[8.836322] (-) TimerEvent: {}
+[8.936728] (-) TimerEvent: {}
+[9.037130] (-) TimerEvent: {}
+[9.137554] (-) TimerEvent: {}
+[9.237948] (-) TimerEvent: {}
+[9.338332] (-) TimerEvent: {}
+[9.438725] (-) TimerEvent: {}
+[9.539127] (-) TimerEvent: {}
+[9.639587] (-) TimerEvent: {}
+[9.739978] (-) TimerEvent: {}
+[9.840367] (-) TimerEvent: {}
+[9.940757] (-) TimerEvent: {}
+[10.041083] (-) TimerEvent: {}
+[10.141429] (-) TimerEvent: {}
+[10.241808] (-) TimerEvent: {}
+[10.342180] (-) TimerEvent: {}
+[10.442569] (-) TimerEvent: {}
+[10.542951] (-) TimerEvent: {}
+[10.643347] (-) TimerEvent: {}
+[10.743757] (-) TimerEvent: {}
+[10.844160] (-) TimerEvent: {}
+[10.944578] (-) TimerEvent: {}
+[11.044957] (-) TimerEvent: {}
+[11.145306] (-) TimerEvent: {}
+[11.245680] (-) TimerEvent: {}
+[11.345976] (-) TimerEvent: {}
+[11.446329] (-) TimerEvent: {}
+[11.546729] (-) TimerEvent: {}
+[11.647140] (-) TimerEvent: {}
+[11.748363] (-) TimerEvent: {}
+[11.848809] (-) TimerEvent: {}
+[11.949284] (-) TimerEvent: {}
+[12.049705] (-) TimerEvent: {}
+[12.150029] (-) TimerEvent: {}
+[12.250458] (-) TimerEvent: {}
+[12.350856] (-) TimerEvent: {}
+[12.451185] (-) TimerEvent: {}
+[12.551527] (-) TimerEvent: {}
+[12.652026] (-) TimerEvent: {}
+[12.752474] (-) TimerEvent: {}
+[12.852885] (-) TimerEvent: {}
+[12.947678] (tf2_listener) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener_node\x1b[0m\n'}
+[12.952994] (-) TimerEvent: {}
+[13.053378] (-) TimerEvent: {}
+[13.153859] (-) TimerEvent: {}
+[13.254341] (-) TimerEvent: {}
+[13.354821] (-) TimerEvent: {}
+[13.455298] (-) TimerEvent: {}
+[13.555656] (-) TimerEvent: {}
+[13.654393] (tf2_listener) StdoutLine: {'line': b'[100%] Built target listener_node\n'}
+[13.655752] (-) TimerEvent: {}
+[13.671510] (tf2_listener) CommandEnded: {'returncode': 0}
+[13.678318] (tf2_listener) JobProgress: {'identifier': 'tf2_listener', 'progress': 'install'}
+[13.692876] (tf2_listener) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mukul/ros2_phase2/build/tf2_listener'], 'cwd': '/home/mukul/ros2_phase2/build/tf2_listener', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mukul/ros2_ws/install/robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/mukul/ros2_phase2/src'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/240/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/240/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/240/usr/share/code/code'), ('MANAGERPID', '1238'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1679'), ('BUNDLED_DEBUGPY_PATH', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2766'), ('NVM_DIR', '/home/mukul/.nvm'), ('COLCON_PREFIX_PATH', '/home/mukul/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:11905'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1652,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1652'), ('GTK_EXE_PREFIX', '/snap/code/240/usr'), ('INVOCATION_ID', '1b68ae19615d48a29583e021685c0535'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/240/usr/lib/locale'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/mukul/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-64b08f8fac0e1aab.txt'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/mukul/.config/Code/User/workspaceStorage/74fcec7f184ac2636e7f9b10f21f8520/ms-python.python/pythonrc.py'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/240/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-924f4dae92.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/240/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/ros2_phase2/build/tf2_listener'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/240/.local/share/flatpak/exports/share:/home/mukul/snap/code/240/.local/share:/home/mukul/snap/code/240:/snap/code/240/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mukul/ros2_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mukul/ros2_ws/install/talker_cpp:/home/mukul/ros2_ws/install/system_monitor:/home/mukul/ros2_ws/install/smooth_cpp:/home/mukul/ros2_ws/install/smart_avoid_cpp:/home/mukul/ros2_ws/install/report_node:/home/mukul/ros2_ws/install/robot_interfaces:/home/mukul/ros2_ws/install/reactive_cpp:/home/mukul/ros2_ws/install/pkg_03_system_monitor_params:/home/mukul/ros2_ws/install/pkg_02_monitor_service:/home/mukul/ros2_ws/install/pkg_01_system_monitor:/home/mukul/ros2_ws/install/motion_cpp:/home/mukul/ros2_ws/install/listener_cpp:/home/mukul/ros2_ws/install/keyboard_cpp:/home/mukul/ros2_ws/install/heartbeat_cpp:/home/mukul/ros2_ws/install/cpp_practice:/home/mukul/ros2_ws/install/avoid_cpp:/opt/ros/humble')]), 'shell': False}
+[13.703696] (tf2_listener) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.703947] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/lib/tf2_listener/listener_node\n'}
+[13.709175] (tf2_listener) StdoutLine: {'line': b'-- Set runtime path of "/home/mukul/ros2_phase2/install/tf2_listener/lib/tf2_listener/listener_node" to ""\n'}
+[13.709429] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/package_run_dependencies/tf2_listener\n'}
+[13.709867] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/parent_prefix_path/tf2_listener\n'}
+[13.710154] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/ament_prefix_path.sh\n'}
+[13.710383] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/ament_prefix_path.dsv\n'}
+[13.710621] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/path.sh\n'}
+[13.710835] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/environment/path.dsv\n'}
+[13.711078] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.bash\n'}
+[13.711310] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.sh\n'}
+[13.711553] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.zsh\n'}
+[13.711774] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/local_setup.dsv\n'}
+[13.711990] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.dsv\n'}
+[13.712291] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/ament_index/resource_index/packages/tf2_listener\n'}
+[13.712849] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/cmake/tf2_listenerConfig.cmake\n'}
+[13.713010] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/cmake/tf2_listenerConfig-version.cmake\n'}
+[13.713244] (tf2_listener) StdoutLine: {'line': b'-- Installing: /home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.xml\n'}
+[13.715878] (tf2_listener) CommandEnded: {'returncode': 0}
+[13.735625] (tf2_listener) JobEnded: {'identifier': 'tf2_listener', 'rc': 0}
+[13.736391] (-) EventReactorShutdown: {}

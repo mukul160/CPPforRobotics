@@ -1,0 +1,6 @@
+Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain
+Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain

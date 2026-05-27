@@ -1,0 +1,46 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mukul/ros2_phase2/build/tf2-broadcaster
+[35m[1mConsolidate compiler generated dependencies of target broadcaster_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/broadcaster_node.dir/src/broadcaster_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable broadcaster_node[0m
+[100%] Built target broadcaster_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/lib/tf2-broadcaster/broadcaster_node
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2-broadcaster
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2-broadcaster
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/ament_prefix_path.sh
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/path.sh
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/path.dsv
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.bash
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.sh
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.zsh
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.dsv
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.dsv
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/packages/tf2-broadcaster
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/cmake/tf2-broadcasterConfig.cmake
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/cmake/tf2-broadcasterConfig-version.cmake
+-- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.xml

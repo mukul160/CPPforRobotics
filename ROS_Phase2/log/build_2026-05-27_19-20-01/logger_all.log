@@ -1,0 +1,271 @@
+[0.422s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.422s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7706f7a5abf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7706f7a5a680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7706f7a5a680>>, mixin_verb=('build',))
+[0.910s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.911s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.912s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mukul/ros2_phase2'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.938s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extension 'ignore'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extension 'ignore_ament_install'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extension 'colcon_meta'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extensions ['ros']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2-broadcaster) by extension 'ros'
+[0.950s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2-broadcaster' with type 'ros.ament_cmake' and name 'tf2-broadcaster'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extensions ['ignore', 'ignore_ament_install']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extension 'ignore'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extension 'ignore_ament_install'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extensions ['colcon_pkg']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extension 'colcon_pkg'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extensions ['colcon_meta']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extension 'colcon_meta'
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extensions ['ros']
+[0.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_chain) by extension 'ros'
+[0.953s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_chain' with type 'ros.ament_cmake' and name 'tf2_chain'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extension 'ignore'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extension 'ignore_ament_install'
+[0.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extensions ['colcon_pkg']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extension 'colcon_pkg'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extensions ['colcon_meta']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extension 'colcon_meta'
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extensions ['ros']
+[0.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_listener) by extension 'ros'
+[0.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_listener' with type 'ros.ament_cmake' and name 'tf2_listener'
+[0.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.955s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.019s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.028s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/mukul/ros2_ws/install
+[1.031s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[1.034s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_target' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[1.136s] Level 5:colcon.colcon_core.verb:set package 'tf2-broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.136s] DEBUG:colcon.colcon_core.verb:Building package 'tf2-broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mukul/ros2_phase2/build/tf2-broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mukul/ros2_phase2/install/tf2-broadcaster', 'merge_install': False, 'path': '/home/mukul/ros2_phase2/src/tf2-broadcaster', 'symlink_install': False, 'test_result_base': None}
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_args' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_target' from command line to 'None'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_clean_cache' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_clean_first' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'cmake_force_configure' from command line to 'False'
+[1.137s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'ament_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'catkin_cmake_args' from command line to 'None'
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'tf2_chain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.138s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_chain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mukul/ros2_phase2/build/tf2_chain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mukul/ros2_phase2/install/tf2_chain', 'merge_install': False, 'path': '/home/mukul/ros2_phase2/src/tf2_chain', 'symlink_install': False, 'test_result_base': None}
+[1.138s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_target' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_clean_first' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'cmake_force_configure' from command line to 'False'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'ament_cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[1.139s] Level 5:colcon.colcon_core.verb:set package 'tf2_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.139s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mukul/ros2_phase2/build/tf2_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mukul/ros2_phase2/install/tf2_listener', 'merge_install': False, 'path': '/home/mukul/ros2_phase2/src/tf2_listener', 'symlink_install': False, 'test_result_base': None}
+[1.139s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.141s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mukul/ros2_phase2/src/tf2-broadcaster' with build type 'ament_cmake'
+[1.142s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mukul/ros2_phase2/src/tf2-broadcaster'
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mukul/ros2_phase2/src/tf2_chain' with build type 'ament_cmake'
+[1.171s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mukul/ros2_phase2/src/tf2_chain'
+[1.171s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.172s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mukul/ros2_phase2/src/tf2_listener' with build type 'ament_cmake'
+[1.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mukul/ros2_phase2/src/tf2_listener'
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2-broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2-broadcaster -- -j8 -l8
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_listener -- -j8 -l8
+[1.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_listener -- -j8 -l8
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_listener
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2-broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2-broadcaster -- -j8 -l8
+[1.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2-broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2-broadcaster
+[1.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_listener)
+[1.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_listener
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener' for CMake module files
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener' for CMake config files
+[1.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_listener', 'cmake_prefix_path')
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.ps1'
+[1.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.dsv'
+[1.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.sh'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/bin'
+[1.557s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib/pkgconfig/tf2_listener.pc'
+[1.558s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib/python3.10/site-packages'
+[1.559s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/bin'
+[1.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.ps1'
+[1.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.sh'
+[1.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.bash'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.zsh'
+[1.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2_listener/share/colcon-core/packages/tf2_listener)
+[1.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_listener)
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener' for CMake module files
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener' for CMake config files
+[1.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_listener', 'cmake_prefix_path')
+[1.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.ps1'
+[1.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.dsv'
+[1.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/hook/cmake_prefix_path.sh'
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/bin'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib/pkgconfig/tf2_listener.pc'
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/lib/python3.10/site-packages'
+[1.588s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_listener/bin'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.sh'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.bash'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_listener/share/tf2_listener/package.zsh'
+[1.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2_listener/share/colcon-core/packages/tf2_listener)
+[1.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2-broadcaster)
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster' for CMake module files
+[1.602s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster' for CMake config files
+[1.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2-broadcaster', 'cmake_prefix_path')
+[1.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.ps1'
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.dsv'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.sh'
+[1.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2-broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2-broadcaster
+[1.608s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/bin'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib/pkgconfig/tf2-broadcaster.pc'
+[1.609s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib/python3.10/site-packages'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/bin'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.ps1'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.dsv'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.sh'
+[1.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.bash'
+[1.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.zsh'
+[1.620s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2-broadcaster/share/colcon-core/packages/tf2-broadcaster)
+[1.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2-broadcaster)
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster' for CMake module files
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster' for CMake config files
+[1.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2-broadcaster', 'cmake_prefix_path')
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/hook/cmake_prefix_path.sh'
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib'
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/bin'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib/pkgconfig/tf2-broadcaster.pc'
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/lib/python3.10/site-packages'
+[1.631s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2-broadcaster/bin'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.ps1'
+[1.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.dsv'
+[1.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.sh'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.bash'
+[1.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.zsh'
+[1.639s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2-broadcaster/share/colcon-core/packages/tf2-broadcaster)
+[4.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mukul/ros2_phase2/src/tf2_chain -DCMAKE_INSTALL_PREFIX=/home/mukul/ros2_phase2/install/tf2_chain
+[4.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+[20.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2_chain -- -j8 -l8
+[20.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mukul/ros2_phase2/build/tf2_chain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain
+[20.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_chain)
+[20.217s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain' for CMake module files
+[20.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mukul/ros2_phase2/build/tf2_chain' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2_chain
+[20.218s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain' for CMake config files
+[20.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_chain', 'cmake_prefix_path')
+[20.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.ps1'
+[20.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.dsv'
+[20.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.sh'
+[20.220s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib'
+[20.220s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/bin'
+[20.220s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib/pkgconfig/tf2_chain.pc'
+[20.220s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib/python3.10/site-packages'
+[20.221s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/bin'
+[20.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.ps1'
+[20.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.dsv'
+[20.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.sh'
+[20.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.bash'
+[20.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.zsh'
+[20.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2_chain/share/colcon-core/packages/tf2_chain)
+[20.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_chain)
+[20.224s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain' for CMake module files
+[20.225s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain' for CMake config files
+[20.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_chain', 'cmake_prefix_path')
+[20.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.ps1'
+[20.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.dsv'
+[20.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/hook/cmake_prefix_path.sh'
+[20.227s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib'
+[20.228s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/bin'
+[20.228s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib/pkgconfig/tf2_chain.pc'
+[20.228s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/lib/python3.10/site-packages'
+[20.228s] Level 1:colcon.colcon_core.environment:checking '/home/mukul/ros2_phase2/install/tf2_chain/bin'
+[20.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.ps1'
+[20.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.dsv'
+[20.230s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.sh'
+[20.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.bash'
+[20.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/mukul/ros2_phase2/install/tf2_chain/share/tf2_chain/package.zsh'
+[20.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mukul/ros2_phase2/install/tf2_chain/share/colcon-core/packages/tf2_chain)
+[20.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.234s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.243s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.243s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.282s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.282s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mukul/ros2_phase2/install/local_setup.ps1'
+[20.284s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mukul/ros2_phase2/install/_local_setup_util_ps1.py'
+[20.286s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mukul/ros2_phase2/install/setup.ps1'
+[20.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mukul/ros2_phase2/install/local_setup.sh'
+[20.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mukul/ros2_phase2/install/_local_setup_util_sh.py'
+[20.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mukul/ros2_phase2/install/setup.sh'
+[20.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mukul/ros2_phase2/install/local_setup.bash'
+[20.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mukul/ros2_phase2/install/setup.bash'
+[20.298s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mukul/ros2_phase2/install/local_setup.zsh'
+[20.299s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mukul/ros2_phase2/install/setup.zsh'

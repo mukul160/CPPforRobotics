@@ -1,0 +1,24 @@
+[0.061s] Invoking command in '/home/mukul/ros2_phase2/build/tf2-broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2-broadcaster -- -j8 -l8
+[0.240s] [35m[1mConsolidate compiler generated dependencies of target broadcaster_node[0m
+[0.302s] [100%] Built target broadcaster_node
+[0.355s] Invoked command in '/home/mukul/ros2_phase2/build/tf2-broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/ros2_phase2/build/tf2-broadcaster -- -j8 -l8
+[0.362s] Invoking command in '/home/mukul/ros2_phase2/build/tf2-broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2-broadcaster
+[0.381s] -- Install configuration: ""
+[0.383s] -- Execute custom install script
+[0.387s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/lib/tf2-broadcaster/broadcaster_node
+[0.389s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/package_run_dependencies/tf2-broadcaster
+[0.390s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/parent_prefix_path/tf2-broadcaster
+[0.390s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/ament_prefix_path.sh
+[0.390s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/ament_prefix_path.dsv
+[0.390s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/path.sh
+[0.392s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/environment/path.dsv
+[0.394s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.bash
+[0.397s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.sh
+[0.402s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.zsh
+[0.407s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/local_setup.dsv
+[0.409s] -- Symlinking: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.dsv
+[0.435s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/ament_index/resource_index/packages/tf2-broadcaster
+[0.435s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/cmake/tf2-broadcasterConfig.cmake
+[0.436s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/cmake/tf2-broadcasterConfig-version.cmake
+[0.436s] -- Up-to-date symlink: /home/mukul/ros2_phase2/install/tf2-broadcaster/share/tf2-broadcaster/package.xml
+[0.463s] Invoked command in '/home/mukul/ros2_phase2/build/tf2-broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/ros2_phase2/build/tf2-broadcaster
