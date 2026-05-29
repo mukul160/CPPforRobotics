@@ -1,0 +1,16 @@
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/lib/obstacle_avoidance/avoider_node
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/obstacle_avoidance
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/obstacle_avoidance
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.sh
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.dsv
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.sh
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.dsv
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.bash
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.sh
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.zsh
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.dsv
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/package.dsv
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/ament_index/resource_index/packages/obstacle_avoidance
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig.cmake
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig-version.cmake
+/home/mukul/ROS2_Phase3/install/obstacle_avoidance/share/obstacle_avoidance/package.xml
