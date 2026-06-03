@@ -1,0 +1,4 @@
+Invoking command in '/home/mukul/phase4_ws/build/nav_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase4_ws/build/nav_client -- -j8 -l8
+Invoked command in '/home/mukul/phase4_ws/build/nav_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase4_ws/build/nav_client -- -j8 -l8
+Invoking command in '/home/mukul/phase4_ws/build/nav_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase4_ws/build/nav_client
+Invoked command in '/home/mukul/phase4_ws/build/nav_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase4_ws/build/nav_client

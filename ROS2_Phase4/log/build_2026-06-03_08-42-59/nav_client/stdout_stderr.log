@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target nav_client_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav_client_node.dir/src/nav_client_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nav_client_node[0m
+[100%] Built target nav_client_node
+-- Install configuration: ""
+-- Installing: /home/mukul/phase4_ws/install/nav_client/lib/nav_client/nav_client_node
+-- Set runtime path of "/home/mukul/phase4_ws/install/nav_client/lib/nav_client/nav_client_node" to ""
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/package_run_dependencies/nav_client
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/parent_prefix_path/nav_client
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/path.sh
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/path.dsv
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.bash
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.sh
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.zsh
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.dsv
+-- Installing: /home/mukul/phase4_ws/install/nav_client/share/nav_client/package.dsv
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/packages/nav_client
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/cmake/nav_clientConfig.cmake
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/cmake/nav_clientConfig-version.cmake
+-- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/package.xml

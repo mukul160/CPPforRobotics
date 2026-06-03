@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/mukul/phase4_ws/build/nav_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase4_ws/build/nav_client -- -j8 -l8
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target nav_client_node[0m
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_client_node.dir/src/nav_client_node.cpp.o[0m
+[5.909s] [100%] [32m[1mLinking CXX executable nav_client_node[0m
+[6.284s] [100%] Built target nav_client_node
+[6.302s] Invoked command in '/home/mukul/phase4_ws/build/nav_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase4_ws/build/nav_client -- -j8 -l8
+[6.317s] Invoking command in '/home/mukul/phase4_ws/build/nav_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase4_ws/build/nav_client
+[6.327s] -- Install configuration: ""
+[6.328s] -- Installing: /home/mukul/phase4_ws/install/nav_client/lib/nav_client/nav_client_node
+[6.330s] -- Set runtime path of "/home/mukul/phase4_ws/install/nav_client/lib/nav_client/nav_client_node" to ""
+[6.330s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/package_run_dependencies/nav_client
+[6.330s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/parent_prefix_path/nav_client
+[6.330s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/ament_prefix_path.sh
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/ament_prefix_path.dsv
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/path.sh
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/environment/path.dsv
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.bash
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.sh
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.zsh
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/local_setup.dsv
+[6.331s] -- Installing: /home/mukul/phase4_ws/install/nav_client/share/nav_client/package.dsv
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/ament_index/resource_index/packages/nav_client
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/cmake/nav_clientConfig.cmake
+[6.331s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/cmake/nav_clientConfig-version.cmake
+[6.332s] -- Up-to-date: /home/mukul/phase4_ws/install/nav_client/share/nav_client/package.xml
+[6.339s] Invoked command in '/home/mukul/phase4_ws/build/nav_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase4_ws/build/nav_client
