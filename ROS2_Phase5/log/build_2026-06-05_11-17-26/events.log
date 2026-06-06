@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (lifecycle_sensor) JobQueued: {'identifier': 'lifecycle_sensor', 'dependencies': OrderedDict()}
+[0.001133] (lifecycle_sensor) JobStarted: {'identifier': 'lifecycle_sensor'}
+[0.013058] (lifecycle_sensor) JobProgress: {'identifier': 'lifecycle_sensor', 'progress': 'cmake'}
+[0.013883] (lifecycle_sensor) Command: {'cmd': ['/usr/bin/cmake', '/home/mukul/phase5_ws/src/lifecycle_sensor', '-DCMAKE_INSTALL_PREFIX=/home/mukul/phase5_ws/install/lifecycle_sensor'], 'cwd': '/home/mukul/phase5_ws/build/lifecycle_sensor', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/244/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/244/usr/share/code/code'), ('MANAGERPID', '1273'), ('SYSTEMD_EXEC_PID', '1658'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3054'), ('NVM_DIR', '/home/mukul/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:14906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1630,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1630'), ('GTK_EXE_PREFIX', '/snap/code/244/usr'), ('INVOCATION_ID', '2b7bc572a1e746d790dda3e440cf081f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/244/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/244/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a23ed0522f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/244/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/phase5_ws/build/lifecycle_sensor'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '130b93e65344d005d11aa215a7e55648'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/244/.local/share/flatpak/exports/share:/home/mukul/snap/code/244/.local/share:/home/mukul/snap/code/244:/snap/code/244/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099591] (-) TimerEvent: {}
+[0.158315] (lifecycle_sensor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199721] (-) TimerEvent: {}
+[0.300129] (-) TimerEvent: {}
+[0.307316] (lifecycle_sensor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.326220] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401587] (-) TimerEvent: {}
+[0.456837] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.466840] (lifecycle_sensor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.467376] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.468029] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.472710] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501719] (-) TimerEvent: {}
+[0.602179] (-) TimerEvent: {}
+[0.606138] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.618233] (lifecycle_sensor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.618838] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619533] (lifecycle_sensor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.624472] (lifecycle_sensor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.702301] (-) TimerEvent: {}
+[0.803785] (-) TimerEvent: {}
+[0.903517] (lifecycle_sensor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.903842] (-) TimerEvent: {}
+[1.006763] (-) TimerEvent: {}
+[1.110390] (-) TimerEvent: {}
+[1.135582] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.212793] (-) TimerEvent: {}
+[1.224172] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.234994] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.256876] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.278295] (lifecycle_sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.309743] (lifecycle_sensor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.312916] (-) TimerEvent: {}
+[1.389747] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.395254] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.413032] (-) TimerEvent: {}
+[1.513381] (-) TimerEvent: {}
+[1.543654] (lifecycle_sensor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.589875] (lifecycle_sensor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.613486] (-) TimerEvent: {}
+[1.659722] (lifecycle_sensor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.676618] (lifecycle_sensor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.713597] (-) TimerEvent: {}
+[1.788870] (lifecycle_sensor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.789762] (lifecycle_sensor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.813743] (-) TimerEvent: {}
+[1.901560] (lifecycle_sensor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.904833] (lifecycle_sensor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.913842] (-) TimerEvent: {}
+[2.014207] (-) TimerEvent: {}
+[2.016112] (lifecycle_sensor) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.048670] (lifecycle_sensor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.114311] (-) TimerEvent: {}
+[2.184446] (lifecycle_sensor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.184716] (lifecycle_sensor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.184825] (lifecycle_sensor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.185786] (lifecycle_sensor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.187831] (lifecycle_sensor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.188187] (lifecycle_sensor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.188651] (lifecycle_sensor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.191204] (lifecycle_sensor) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.204427] (lifecycle_sensor) StdoutLine: {'line': b'-- Generating done\n'}
+[2.210274] (lifecycle_sensor) StdoutLine: {'line': b'-- Build files have been written to: /home/mukul/phase5_ws/build/lifecycle_sensor\n'}
+[2.214479] (-) TimerEvent: {}
+[2.228863] (lifecycle_sensor) CommandEnded: {'returncode': 0}
+[2.230083] (lifecycle_sensor) JobProgress: {'identifier': 'lifecycle_sensor', 'progress': 'build'}
+[2.231361] (lifecycle_sensor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mukul/phase5_ws/build/lifecycle_sensor', '--', '-j8', '-l8'], 'cwd': '/home/mukul/phase5_ws/build/lifecycle_sensor', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/244/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/244/usr/share/code/code'), ('MANAGERPID', '1273'), ('SYSTEMD_EXEC_PID', '1658'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3054'), ('NVM_DIR', '/home/mukul/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:14906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1630,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1630'), ('GTK_EXE_PREFIX', '/snap/code/244/usr'), ('INVOCATION_ID', '2b7bc572a1e746d790dda3e440cf081f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/244/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/244/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a23ed0522f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/244/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/phase5_ws/build/lifecycle_sensor'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '130b93e65344d005d11aa215a7e55648'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/244/.local/share/flatpak/exports/share:/home/mukul/snap/code/244/.local/share:/home/mukul/snap/code/244:/snap/code/244/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.312302] (lifecycle_sensor) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensor_node.dir/src/sensor_node.cpp.o\x1b[0m\n'}
+[2.314586] (-) TimerEvent: {}
+[2.414960] (-) TimerEvent: {}
+[2.515309] (-) TimerEvent: {}
+[2.615722] (-) TimerEvent: {}
+[2.716204] (-) TimerEvent: {}
+[2.816608] (-) TimerEvent: {}
+[2.917183] (-) TimerEvent: {}
+[3.017711] (-) TimerEvent: {}
+[3.118194] (-) TimerEvent: {}
+[3.218626] (-) TimerEvent: {}
+[3.319107] (-) TimerEvent: {}
+[3.419545] (-) TimerEvent: {}
+[3.520022] (-) TimerEvent: {}
+[3.620504] (-) TimerEvent: {}
+[3.721009] (-) TimerEvent: {}
+[3.821477] (-) TimerEvent: {}
+[3.921966] (-) TimerEvent: {}
+[4.022390] (-) TimerEvent: {}
+[4.122902] (-) TimerEvent: {}
+[4.223348] (-) TimerEvent: {}
+[4.323907] (-) TimerEvent: {}
+[4.424383] (-) TimerEvent: {}
+[4.524752] (-) TimerEvent: {}
+[4.625240] (-) TimerEvent: {}
+[4.725772] (-) TimerEvent: {}
+[4.826277] (-) TimerEvent: {}
+[4.926798] (-) TimerEvent: {}
+[5.027208] (-) TimerEvent: {}
+[5.127551] (-) TimerEvent: {}
+[5.228161] (-) TimerEvent: {}
+[5.328498] (-) TimerEvent: {}
+[5.428884] (-) TimerEvent: {}
+[5.529225] (-) TimerEvent: {}
+[5.629630] (-) TimerEvent: {}
+[5.730786] (-) TimerEvent: {}
+[5.831195] (-) TimerEvent: {}
+[5.931582] (-) TimerEvent: {}
+[6.032001] (-) TimerEvent: {}
+[6.132388] (-) TimerEvent: {}
+[6.233777] (-) TimerEvent: {}
+[6.334132] (-) TimerEvent: {}
+[6.434541] (-) TimerEvent: {}
+[6.534935] (-) TimerEvent: {}
+[6.635961] (-) TimerEvent: {}
+[6.736306] (-) TimerEvent: {}
+[6.836637] (-) TimerEvent: {}
+[6.936992] (-) TimerEvent: {}
+[7.037321] (-) TimerEvent: {}
+[7.137638] (-) TimerEvent: {}
+[7.238022] (-) TimerEvent: {}
+[7.338447] (-) TimerEvent: {}
+[7.438822] (-) TimerEvent: {}
+[7.539389] (-) TimerEvent: {}
+[7.639872] (-) TimerEvent: {}
+[7.740244] (-) TimerEvent: {}
+[7.840773] (-) TimerEvent: {}
+[7.941163] (-) TimerEvent: {}
+[8.041661] (-) TimerEvent: {}
+[8.142183] (-) TimerEvent: {}
+[8.242644] (-) TimerEvent: {}
+[8.343074] (-) TimerEvent: {}
+[8.443461] (-) TimerEvent: {}
+[8.543770] (-) TimerEvent: {}
+[8.644081] (-) TimerEvent: {}
+[8.744395] (-) TimerEvent: {}
+[8.844800] (-) TimerEvent: {}
+[8.945229] (-) TimerEvent: {}
+[9.045596] (-) TimerEvent: {}
+[9.146073] (-) TimerEvent: {}
+[9.154964] (lifecycle_sensor) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sensor_node\x1b[0m\n'}
+[9.246198] (-) TimerEvent: {}
+[9.346570] (-) TimerEvent: {}
+[9.447020] (-) TimerEvent: {}
+[9.545096] (lifecycle_sensor) StdoutLine: {'line': b'[100%] Built target sensor_node\n'}
+[9.547103] (-) TimerEvent: {}
+[9.564218] (lifecycle_sensor) CommandEnded: {'returncode': 0}
+[9.568444] (lifecycle_sensor) JobProgress: {'identifier': 'lifecycle_sensor', 'progress': 'install'}
+[9.588003] (lifecycle_sensor) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mukul/phase5_ws/build/lifecycle_sensor'], 'cwd': '/home/mukul/phase5_ws/build/lifecycle_sensor', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mukul'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/mukul/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mukul'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('TERM_PROGRAM_VERSION', '1.123.0'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GTK_PATH', '/snap/code/244/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('NVM_BIN', '/home/mukul/.nvm/versions/node/v20.19.4/bin'), ('NVM_INC', '/home/mukul/.nvm/versions/node/v20.19.4/include/node'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/mukul/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/244/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/244/usr/share/code/code'), ('MANAGERPID', '1273'), ('SYSTEMD_EXEC_PID', '1658'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3054'), ('NVM_DIR', '/home/mukul/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mukul'), ('JOURNAL_STREAM', '8:14906'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'mukul'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/mukul/CoppeliaSim'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/mukul/.gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mukul/.local/bin:/home/mukul/.local/bin:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/mukul/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/mukul/.local/bin:/home/mukul/.nvm/versions/node/v20.19.4/bin:/home/mukul/.local/bin:/home/mukul/.local/bin:/opt/ros/humble/bin:/home/mukul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mukul-TUF-Gaming-FX505DT-FX505DT:@/tmp/.ICE-unix/1630,unix/mukul-TUF-Gaming-FX505DT-FX505DT:/tmp/.ICE-unix/1630'), ('GTK_EXE_PREFIX', '/snap/code/244/usr'), ('INVOCATION_ID', '2b7bc572a1e746d790dda3e440cf081f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/244/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/mukul/snap/code/244/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-a23ed0522f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/mukul/snap/code/244/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mukul/phase5_ws/build/lifecycle_sensor'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '130b93e65344d005d11aa215a7e55648'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/home/mukul/snap/code/244/.local/share/flatpak/exports/share:/home/mukul/snap/code/244/.local/share:/home/mukul/snap/code/244:/snap/code/244/usr/share:/usr/share/ubuntu-xorg:/usr/share/gnome:/home/mukul/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.598641] (lifecycle_sensor) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.598985] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node\n'}
+[9.601311] (lifecycle_sensor) StdoutLine: {'line': b'-- Set runtime path of "/home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node" to ""\n'}
+[9.601671] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/package_run_dependencies/lifecycle_sensor\n'}
+[9.601945] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/parent_prefix_path/lifecycle_sensor\n'}
+[9.602178] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.sh\n'}
+[9.602399] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.dsv\n'}
+[9.602614] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.sh\n'}
+[9.602882] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.dsv\n'}
+[9.603202] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.bash\n'}
+[9.603503] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.sh\n'}
+[9.603907] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.zsh\n'}
+[9.604259] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.dsv\n'}
+[9.604532] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.dsv\n'}
+[9.604896] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/packages/lifecycle_sensor\n'}
+[9.605298] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig.cmake\n'}
+[9.605609] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig-version.cmake\n'}
+[9.605904] (lifecycle_sensor) StdoutLine: {'line': b'-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.xml\n'}
+[9.608348] (lifecycle_sensor) CommandEnded: {'returncode': 0}
+[9.641664] (lifecycle_sensor) JobEnded: {'identifier': 'lifecycle_sensor', 'rc': 0}
+[9.642569] (-) EventReactorShutdown: {}

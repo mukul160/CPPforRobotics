@@ -1,0 +1,6 @@
+Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mukul/phase5_ws/src/lifecycle_sensor -DCMAKE_INSTALL_PREFIX=/home/mukul/phase5_ws/install/lifecycle_sensor
+Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mukul/phase5_ws/src/lifecycle_sensor -DCMAKE_INSTALL_PREFIX=/home/mukul/phase5_ws/install/lifecycle_sensor
+Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase5_ws/build/lifecycle_sensor -- -j8 -l8
+Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase5_ws/build/lifecycle_sensor -- -j8 -l8
+Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase5_ws/build/lifecycle_sensor
+Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase5_ws/build/lifecycle_sensor

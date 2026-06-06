@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target sensor_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sensor_node.dir/src/sensor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sensor_node[0m
+[100%] Built target sensor_node
+-- Install configuration: ""
+-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node
+-- Set runtime path of "/home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node" to ""
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/package_run_dependencies/lifecycle_sensor
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/parent_prefix_path/lifecycle_sensor
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.sh
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.dsv
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.bash
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.sh
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.zsh
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.dsv
+-- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.dsv
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/packages/lifecycle_sensor
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig.cmake
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig-version.cmake
+-- Up-to-date: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.xml

@@ -1,0 +1,69 @@
+[0.015s] Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mukul/phase5_ws/src/lifecycle_sensor -DCMAKE_INSTALL_PREFIX=/home/mukul/phase5_ws/install/lifecycle_sensor
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.306s] -- The CXX compiler identification is GNU 11.4.0
+[0.325s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.466s] -- Detecting C compile features
+[0.467s] -- Detecting C compile features - done
+[0.472s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.618s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.624s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.903s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.135s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.223s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.234s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.256s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.389s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.394s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.589s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.659s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.676s] -- Looking for pthread.h
+[1.788s] -- Looking for pthread.h - found
+[1.789s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.901s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.904s] -- Found Threads: TRUE  
+[2.015s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.048s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.183s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.184s] -- Configured cppcheck include dirs: 
+[2.184s] -- Configured cppcheck exclude dirs and/or files: 
+[2.185s] -- Added test 'lint_cmake' to check CMake code style
+[2.187s] -- Added test 'uncrustify' to check C / C++ code style
+[2.187s] -- Configured uncrustify additional arguments: 
+[2.188s] -- Added test 'xmllint' to check XML markup files
+[2.190s] -- Configuring done
+[2.203s] -- Generating done
+[2.209s] -- Build files have been written to: /home/mukul/phase5_ws/build/lifecycle_sensor
+[2.228s] Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mukul/phase5_ws/src/lifecycle_sensor -DCMAKE_INSTALL_PREFIX=/home/mukul/phase5_ws/install/lifecycle_sensor
+[2.232s] Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase5_ws/build/lifecycle_sensor -- -j8 -l8
+[2.311s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_node.dir/src/sensor_node.cpp.o[0m
+[9.154s] [100%] [32m[1mLinking CXX executable sensor_node[0m
+[9.544s] [100%] Built target sensor_node
+[9.567s] Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mukul/phase5_ws/build/lifecycle_sensor -- -j8 -l8
+[9.590s] Invoking command in '/home/mukul/phase5_ws/build/lifecycle_sensor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase5_ws/build/lifecycle_sensor
+[9.598s] -- Install configuration: ""
+[9.598s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node
+[9.600s] -- Set runtime path of "/home/mukul/phase5_ws/install/lifecycle_sensor/lib/lifecycle_sensor/sensor_node" to ""
+[9.601s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/package_run_dependencies/lifecycle_sensor
+[9.601s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/parent_prefix_path/lifecycle_sensor
+[9.601s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.sh
+[9.601s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/ament_prefix_path.dsv
+[9.602s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.sh
+[9.602s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/environment/path.dsv
+[9.602s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.bash
+[9.603s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.sh
+[9.603s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.zsh
+[9.603s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/local_setup.dsv
+[9.604s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.dsv
+[9.604s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/ament_index/resource_index/packages/lifecycle_sensor
+[9.604s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig.cmake
+[9.605s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/cmake/lifecycle_sensorConfig-version.cmake
+[9.605s] -- Installing: /home/mukul/phase5_ws/install/lifecycle_sensor/share/lifecycle_sensor/package.xml
+[9.608s] Invoked command in '/home/mukul/phase5_ws/build/lifecycle_sensor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mukul/phase5_ws/build/lifecycle_sensor
